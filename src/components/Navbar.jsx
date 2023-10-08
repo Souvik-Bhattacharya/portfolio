@@ -1,19 +1,50 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Navbar() {
+  let location = useLocation();
   return (
-    <>
-      <div>
-        <ul className = "flex justify-around">
-            <Link to = "/">Home</Link>
-            <Link to = "/about">About</Link>
-            <Link to = "/experience">Experience</Link>
-            <Link to = "/projects">Projects</Link>
-            <Link to = "/contact">Contact</Link>
-        </ul>
+    <div className='inset-0'>
+      <div className='text-gray-600 web'>
+        &lt;html&gt;
       </div>
-    </>
+      
+      <div className='text-gray-600 pl-10 web'>
+        &lt;head&gt;
+      </div>
+      <span className='text-gray-600 pl-20 my-3'>
+          &lt;title&gt;<span className='text-cyan'>It's Souvik - Portfolio</span>&lt;title/&gt;
+        </span>
+      <div className='text-gray-600 pl-10 web'>
+        &lt;/head&gt;
+      </div>
+      <div className='text-gray-600 pl-10 web'>
+        &lt;body&gt;
+      </div>
+      <div className='text-gray-600 pl-20 web'>
+        &lt;nav&gt;
+      </div>
+      <div className='flex pl-32 h-7 text-lg'>
+        <Link to="/" className={`pr-3 hover:my-1 ${(location.pathname == "/") ? "text-cyan" : "text-gray-600"}`}>
+          &lt;<span className='hover:text-cyan'>Home</span>/&gt;
+        </Link>
+        <Link to="/about" className={`flex pr-3 hover:my-1 ${(location.pathname == "/about") ? "text-cyan" : "text-gray-600"}`}>
+          &lt;<span className='hover:text-cyan'>About</span>/&gt;
+        </Link>
+        <Link to="/exp" className={`flex pr-3 hover:my-1 ${(location.pathname == "/exp") ? "text-cyan" : "text-gray-600"}`}>&lt;<span className='hover:text-cyan'>Experience</span>/&gt;
+        </Link>
+        <Link to="/projects" className={`flex pr-3 hover:my-1 ${(location.pathname == "/projects") ? "text-cyan" : "text-gray-600"}`}>&lt;<span className='hover:text-cyan'>Projects</span>/&gt;
+        </Link>
+        <Link to="/contact" className={`flex pr-3 hover:my-1 ${(location.pathname == "/contact") ? "text-cyan" : "text-gray-600"}`}>&lt;<span className='hover:text-cyan'>Contact</span>/&gt;
+        </Link>
+        <Link to="" className='flex text-gray-600 hover:my-1'>
+          &lt;<span className='hover:text-cyan'>Resume</span>/&gt;
+        </Link>
+      </div>
+      <div className='text-gray-600 pl-20 web'>
+        &lt;/nav&gt;
+      </div>
+    </div>
   )
 }
 
