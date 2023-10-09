@@ -24,7 +24,7 @@ function Education() {
                             <p className='text-cyan text-xl'>Higher Secondery (12th) - PCMB</p>
                             <p className='mt-5'>Bhatpara Amar Krishna Pathsala (H.S) - WBCHSE</p>
                             <p><span className='text-cyan mt-5'>Overall Grade: </span>93%</p>
-                            <p><span className='text-cyan '>Passout: </span>2019</p>
+                            <p><span className='text-cyan '>Passout: </span>2021</p>
                             <Link target='blank' to='https://bakp2014.wixsite.com/main' className='text-cyan mt-5 w-1/2 py-5 border-2 border-cyan rounded-xl hover:bg-cyan hover:text-black shadow-md hover:shadow-sm hover:shadow-cyan shadow-cyan'>Visit</Link>
                         </div>
                         <div className='text-gray-600 web items-start mt-2'>&lt;card/&gt;</div>
