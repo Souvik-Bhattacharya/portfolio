@@ -39,7 +39,7 @@ function Navbar() {
         </Link>
         <Link to="/contact" className={`flex pr-3 hover:my-1 ${(location.pathname == "/contact") ? "text-cyan" : "text-gray-600"}`}>&lt;<span className='hover:text-cyan'>Contact</span>/&gt;
         </Link>
-        <Link to="" className='flex text-gray-600 hover:my-1'>
+        <Link to="https://drive.google.com/file/d/1RXCla3slfBPpO3FTH3SeNBuJXpmdW6Cc/view" target='blank' className='flex text-gray-600 hover:my-1'>
           &lt;<span className='hover:text-cyan'>Resume</span>/&gt;
         </Link>
       </div>
