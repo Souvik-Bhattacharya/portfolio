@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Education from './components/Education';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route exact path = "/" element={<Home/>}></Route>
           <Route exact path = "/about" element={<About/>}></Route>
           <Route exact path = "/edu" element={<Education/>}></Route>
+          <Route exact path = "/contact" element={<Contact/>}></Route>
         </Routes>
         <Footer/>
       </Router>
