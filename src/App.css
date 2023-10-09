@@ -1,9 +1,13 @@
-*{
-    background-color:rgb(29,29,29);
+* {
     color: white;
     font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
 }
 
-.web{
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+.web {
     font-family: cursive;
 }

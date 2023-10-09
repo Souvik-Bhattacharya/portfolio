@@ -7,8 +7,7 @@ function Navbar() {
     <div className='inset-0'>
       <div className='text-gray-600 web'>
         &lt;html&gt;
-      </div>
-      
+      </div>      
       <div className='text-gray-600 pl-10 web'>
         &lt;head&gt;
       </div>
@@ -30,6 +29,9 @@ function Navbar() {
         </Link>
         <Link to="/about" className={`flex pr-3 hover:my-1 ${(location.pathname == "/about") ? "text-cyan" : "text-gray-600"}`}>
           &lt;<span className='hover:text-cyan'>About</span>/&gt;
+        </Link>
+        <Link to="/edu" className={`flex pr-3 hover:my-1 ${(location.pathname == "/edu") ? "text-cyan" : "text-gray-600"}`}>
+          &lt;<span className='hover:text-cyan'>Education</span>/&gt;
         </Link>
         <Link to="/exp" className={`flex pr-3 hover:my-1 ${(location.pathname == "/exp") ? "text-cyan" : "text-gray-600"}`}>&lt;<span className='hover:text-cyan'>Experience</span>/&gt;
         </Link>
