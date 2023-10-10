@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Education from './components/Education';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -18,6 +20,8 @@ function App() {
           <Route exact path = "/" element={<Home/>}></Route>
           <Route exact path = "/about" element={<About/>}></Route>
           <Route exact path = "/edu" element={<Education/>}></Route>
+          <Route exact path = "/exp" element={<Experience/>}></Route>
+          <Route exact path = "/projects" element={<Projects/>}></Route>
           <Route exact path = "/contact" element={<Contact/>}></Route>
         </Routes>
         <Footer/>

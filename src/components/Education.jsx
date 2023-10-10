@@ -16,7 +16,7 @@ function Education() {
             <div className='text-gray-600 pl-20 web'>
                 &lt;div&gt;
             </div>
-            <div className='flex pl-32'>
+            <div className='flex flex-wrap pl-32'>
                 <div className='flex hover:mt-1 hover:shadow-lg hover:shadow-black rounded-3xl  bg-sec p-5 m-2 justify-center w-2/5'>
                     <div className='flex flex-col justify-center items-start'>
                         <div className='text-gray-600 web items-start mb-2'>&lt;card&gt;</div>
