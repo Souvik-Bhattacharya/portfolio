@@ -12,7 +12,7 @@ function Navbar() {
         &lt;head&gt;
       </div>
       <p className='text-gray-600 pl-20 my-3'>
-        &lt;title&gt;<span className='text-cyan'>It's Souvik - Portfolio</span>&lt;title/&gt;
+        &lt;title&gt;<span className='text-cyan at'>It's Souvik - Portfolio</span>&lt;title/&gt;
       </p>
       <p className='text-gray-600 pl-20 my-3'>
         &lt;meta content="<Link to="https://drive.google.com/file/d/1RXCla3slfBPpO3FTH3SeNBuJXpmdW6Cc/view" target='blank' className='text-cyan'>Resume</Link>" /&gt;

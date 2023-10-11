@@ -4,28 +4,28 @@ import express from '/express.png';
 
 function Home() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col page'>
       <div className='flex flex-wrap-reverse'>
         <div className='flex flex-col w-1/2'>
           <div className='text-gray-600 pl-20 web'>
             &lt;h1&gt;
           </div>
-          <p className='text-4xl pl-32 py-3'>Hi! I'm...</p>
-          <p className='text-cyan text-5xl pl-32 py-3'>Souvik Bhattacharya</p>
+          <p className='flex whitespace-nowrap text-4xl pl-32 py-3'>Hi! I'm<p className='dot'>...</p></p>
+          <p className='text-cyan text-5xl pl-32 py-3 at'>Souvik Bhattacharya</p>
           <div className='text-gray-600 pl-20 web'>
             &lt;/h1&gt;
           </div>
           <div className='text-gray-600 pl-20 web'>
             &lt;p&gt;
           </div>
-          <p className='text-2xl pl-32 py-5'>I'm a <span className='text-cyan'>MERN Stack</span> Developer...</p>
+          <p className='text-2xl pl-32 py-5'>I'm a <span className='text-cyan'>MERN Stack</span> Developer</p>
           <div className='text-gray-600 pl-20 web'>
             &lt;/p&gt;
           </div>
           <div className='text-gray-600 pl-20 web'>
             &lt;h1&gt;
           </div>
-          <p className='text-4xl pl-32 py-3 text-cyan'>My Tech Stack...</p>
+          <p className='text-4xl flex whitespace-nowrap pl-32 py-3 text-cyan h'>My Tech Stack <p className='dot text-cyan'>...</p></p>
           <div className='text-gray-600 pl-20 web'>
             &lt;/h1&gt;
           </div>

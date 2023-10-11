@@ -3,12 +3,12 @@ import bg from '/bg.jpg';
 
 function About() {
     return (
-        <div className='flex flex-wrap-reverse'>
+        <div className='flex flex-wrap-reverse page'>
             <div className='flex flex-col w-1/2'>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;h1&gt;
                 </div>
-                <p className='text-4xl pl-32 py-3 text-cyan'>About Me...</p>
+                <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>About Me <p className='dot text-cyan'>...</p></p>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;/h1&gt;
                 </div>

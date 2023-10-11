@@ -5,11 +5,11 @@ import RCC from '/RCC.png';
 
 function Education() {
     return (
-        <div>
+        <div className='page'>
             <div className='text-gray-600 pl-20 web'>
                 &lt;h1&gt;
             </div>
-            <p className='text-4xl pl-32 py-3 text-cyan'>My Education...</p>
+            <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Education <p className='dot text-cyan'>...</p></p>
             <div className='text-gray-600 pl-20 web'>
                 &lt;/h1&gt;
             </div>
@@ -21,7 +21,7 @@ function Education() {
                     <div className='flex flex-col justify-center items-start'>
                         <div className='text-gray-600 web items-start mb-2'>&lt;card&gt;</div>
                         <div className='flex flex-col items-center text-center justify-center'>
-                            <p className='text-cyan text-xl'>Higher Secondery (12th) - PCMB</p>
+                            <p className='text-cyan text-xl at'>Higher Secondery (12th) - PCMB</p>
                             <p className='mt-5'>Bhatpara Amar Krishna Pathsala (H.S) - WBCHSE</p>
                             <p><span className='text-cyan mt-5'>Overall Grade: </span>93%</p>
                             <p><span className='text-cyan '>Passout: </span>2021</p>
@@ -43,7 +43,7 @@ function Education() {
                     <div className='flex flex-col justify-center items-start'>
                         <div className='text-gray-600 web items-start mb-2'>&lt;card&gt;</div>
                         <div className='flex flex-col items-center text-center justify-center'>
-                            <p className='text-cyan text-xl'>Bachelor of Technology - CSE</p>
+                            <p className='text-cyan text-xl at'>Bachelor of Technology - CSE</p>
                             <p className='mt-5'>RCC Institute of Information Technology - MAKAUT</p>
                             <p><span className='text-cyan mt-5'>CGPA: </span>9.23</p>
                             <p><span className='text-cyan '>Expected passing year: </span>2025</p>
