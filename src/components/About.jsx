@@ -3,7 +3,7 @@ import bg from '/bg.jpg';
 
 function About() {
     return (
-        <div className='flex'>
+        <div className='flex flex-wrap-reverse'>
             <div className='flex flex-col w-1/2'>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;h1&gt;
@@ -21,11 +21,11 @@ function About() {
                     &lt;/p&gt;
                 </div>
             </div>
-            <div className='flex flex-col h-auto justify-center mx-10 items-start'>
+            <div className='flex flex-col h-auto justify-center w-2/5 ml-20 items-start'>
                 <div className='text-gray-600 mb-5 web'>
                     &lt;img src="
                 </div>
-                <img src={bg} alt="" className='h-64 shadow-md hover:shadow-lg hover:shadow-cyan shadow-cyan rounded-3xl hover:rotate-3 hover:grayscale' />
+                <img src={bg} alt="" className='ml-12 h-64 shadow-md hover:shadow-lg hover:shadow-cyan shadow-cyan rounded-3xl hover:rotate-3 hover:grayscale' />
                 <div className='text-gray-600 mt-5 web'>
                     " alt="souvik"/&gt;
                 </div>

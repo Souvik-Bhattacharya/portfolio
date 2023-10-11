@@ -5,7 +5,7 @@ import express from '/express.png';
 function Home() {
   return (
     <div className='flex flex-col'>
-      <div className='flex'>
+      <div className='flex flex-wrap-reverse'>
         <div className='flex flex-col w-1/2'>
           <div className='text-gray-600 pl-20 web'>
             &lt;h1&gt;
@@ -33,7 +33,7 @@ function Home() {
             &lt;div&gt;
           </div>
           <div className='pl-32 z-50'>
-            <div className='flex slider'>
+            <div className='flex flex-wrap slider'>
               <img height="50" width="50" className='mr-5 my-3 hover:mt-1 hover:shadow-lg hover:shadow-black' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
               <img height="50" width="50" className='mr-5 my-3 hover:mt-1 hover:shadow-lg hover:shadow-black' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
               <img height="50" width="50" className='mr-5 my-3 hover:mt-1 hover:shadow-lg hover:shadow-black' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
@@ -55,11 +55,11 @@ function Home() {
             &lt;/div&gt;
           </div>
         </div>
-        <div className='flex flex-col h-auto justify-center mx-10 items-start'>
+        <div className='flex flex-col h-auto justify-center ml-20 items-start w-2/5'>
           <div className='text-gray-600 mb-5 web'>
             &lt;img src="
           </div>
-          <img src={bg} alt="" className='h-64 w-full shadow-md hover:shadow-lg hover:shadow-cyan shadow-cyan rounded-3xl hover:rotate-3 hover:grayscale' />
+          <img src={bg} alt="" className='ml-12 h-64 shadow-md hover:shadow-lg hover:shadow-cyan shadow-cyan rounded-3xl hover:rotate-3 hover:grayscale' />
           <div className='text-gray-600 mt-5 web'>
             " alt="souvik"/&gt;
           </div>
