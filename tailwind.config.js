@@ -13,10 +13,8 @@ export default {
       gridTemplateColumns: {
         'card': 'repeat(auto-fill,minmax(400px,1fr))',
         'card-mini': 'repeat(auto-fill,minmax(280px,1fr))',
-        'card-micro': 'repeat(auto-fill,minmax(240px,1fr))',
         'edu': 'repeat(auto-fill,minmax(500px,1fr))',
-        'edu-mini': 'repeat(auto-fill,minmax(auto,1fr))',
-        'edu-micro': 'repeat(auto-fill,minmax(300px,1fr))',
+        'edu-mini': 'repeat(auto-fill,minmax(280px,1fr))',
       },
       screens: {
         'small': {
@@ -24,9 +22,6 @@ export default {
         },
         'mini': {
           'max': '500px',
-        },
-        'micro': {
-          'max': '380px',
         },
       },
     },
