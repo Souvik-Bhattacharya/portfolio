@@ -5,17 +5,17 @@ function Experience() {
     return (
         <div>
             <div className='page'>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;h1&gt;
                 </div>
-                <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Experience <p className='dot text-cyan'>...</p></div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='flex whitespace-nowrap text-4xl mini:text-2xl pl-32 small:pl-14 py-3 text-cyan h'>My Experience <p className='dot text-cyan'>...</p></div>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;/h1&gt;
                 </div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;div&gt;
                 </div>
-                <div className='grid grid-cols-card gap-2 pl-32'>
+                <div className='grid grid-cols-card gap-2 pl-32 small:pl-14'>
                     <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                         <div className='text-gray-600 web'>
                             &lt;experience&gt;
@@ -116,22 +116,22 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;/div&gt;
                 </div>
             </div>
             <div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;h1&gt;
                 </div>
-                <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>Community Involvement <p className='dot text-cyan'>...</p></div>
+                <div className='flex whitespace-nowrap text-4xl mini:text-2xl pl-32 small:pl-14 py-3 text-cyan h'>Community Involvement <p className='dot text-cyan'>...</p></div>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;/h1&gt;
                 </div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;div&gt;
                 </div>
-                <div className='flex flex-col gap-2 pl-32'>
+                <div className='flex flex-col gap-2 pl-32 small:pl-14'>
                     <li className='text-cyan'>
                         Senior Technical Team member - RCCTechz, official tech club of RCCIIT
                     </li>
@@ -149,7 +149,7 @@ function Experience() {
                         1st prize in intra college frontend development competition ‘Webify’
                     </li>
                 </div>
-                <div className='text-gray-600 pl-20 web'>
+                <div className='text-gray-600 pl-20 small:pl-10 web'>
                     &lt;/div&gt;
                 </div>
             </div>

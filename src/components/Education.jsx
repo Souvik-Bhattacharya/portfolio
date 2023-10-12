@@ -6,17 +6,17 @@ import RCC from '/RCC.png';
 function Education() {
     return (
         <div className='page'>
-            <div className='text-gray-600 pl-20 web'>
+            <div className='text-gray-600 pl-20 small:pl-10 web'>
                 &lt;h1&gt;
             </div>
-            <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Education <p className='dot text-cyan'>...</p></div>
-            <div className='text-gray-600 pl-20 web'>
+            <div className='flex whitespace-nowrap text-4xl mini:text-2xl pl-32 small:pl-14 py-3 text-cyan h'>My Education <p className='dot text-cyan'>...</p></div>
+            <div className='text-gray-600 pl-20 small:pl-10 web'>
                 &lt;/h1&gt;
             </div>
-            <div className='text-gray-600 pl-20 web'>
+            <div className='text-gray-600 pl-20 small:pl-10 web'>
                 &lt;div&gt;
             </div>
-            <div className='grid grid-cols-edu gap-2 pl-32'>
+            <div className='grid grid-cols-edu mini:grid-cols-edu-mini pr-4 gap-2 pl-32 small:pl-14'>
                 <div className='flex hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-5 justify-center'>
                     <div className='flex flex-col justify-between items-start'>
                         <div className='text-gray-600 web items-start mb-2'>&lt;card&gt;</div>
@@ -62,7 +62,7 @@ function Education() {
                     </div>
                 </div>
             </div>
-            <div className='text-gray-600 pl-20 web'>
+            <div className='text-gray-600 pl-20 small:pl-10 web'>
                 &lt;/div&gt;
             </div>
         </div>
