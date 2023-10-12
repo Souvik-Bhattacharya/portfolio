@@ -8,15 +8,15 @@ function Experience() {
                 <div className='text-gray-600 pl-20 web'>
                     &lt;h1&gt;
                 </div>
-                <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Experience <p className='dot text-cyan'>...</p></p>
+                <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Experience <p className='dot text-cyan'>...</p></div>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;/h1&gt;
                 </div>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;div&gt;
                 </div>
-                <div className='flex flex-wrap pl-32'>
-                    <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                <div className='grid grid-cols-card gap-2 pl-32'>
+                    <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                         <div className='text-gray-600 web'>
                             &lt;experience&gt;
                         </div>
@@ -26,7 +26,7 @@ function Experience() {
                                 <p className='text-lg'>July 2023 - September 2023</p>
                             </div>
                             <div className='flex justify-between py-2'>
-                                <Link to='https://www.industryacademiacommunity.com/' target='blank' className='text-cyan text-lg at'>Cloud Counselage Pvt. Ltd.</Link>
+                                <Link to='https://www.industryacademiacommunity.com/' target='blank' className='text-cyan text-lg pr-1 at'>Cloud Counselage Pvt. Ltd.</Link>
                                 <div className='flex gap-5'>
                                     <Link to='https://github.com/Souvik-Bhattacharya/CollegeSeeker_CloudCounselage' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                     <Link to='https://college-seeker-cloud-counselage.onrender.com/' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
@@ -50,7 +50,7 @@ function Experience() {
                             &lt;/experience&gt;
                         </div>
                     </div>
-                    <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                    <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                         <div className='text-gray-600 web'>
                             &lt;experience&gt;
                         </div>
@@ -60,7 +60,7 @@ function Experience() {
                                 <p className='text-lg'>September 2023</p>
                             </div>
                             <div className='flex justify-between py-2'>
-                                <Link to='https://www.sih.gov.in/' target='blank' className='text-cyan text-lg at'>SIH 2023</Link>
+                                <Link to='https://www.sih.gov.in/' target='blank' className='text-cyan text-lg pr-1 at'>SIH 2023</Link>
                                 <div className='flex gap-5'>
                                     <Link to='https://github.com/Souvik-Bhattacharya/SIH2023_E-Waste_Facility_Locator' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                     <Link to='https://e-waste-facility-locator.onrender.com/' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
@@ -85,7 +85,7 @@ function Experience() {
                             &lt;/experience&gt;
                         </div>
                     </div>
-                    <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                    <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                         <div className='text-gray-600 web'>
                             &lt;experience&gt;
                         </div>
@@ -95,7 +95,7 @@ function Experience() {
                                 <p className='text-lg'>October 2022</p>
                             </div>
                             <div className='flex justify-between py-2'>
-                                <Link to='https://hacktoberfest.com/' target='blank' className='text-cyan text-lg at'>Hacktoberfest 2022</Link>
+                                <Link to='https://hacktoberfest.com/' target='blank' className='text-cyan text-lg pr-1 at'>Hacktoberfest 2022</Link>
                                 <div className='flex gap-5'>
                                     <Link to='https://github.com/Souvik-Bhattacharya' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                     <Link to='https://www.holopin.io/@souvik763#badges' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
@@ -124,7 +124,7 @@ function Experience() {
                 <div className='text-gray-600 pl-20 web'>
                     &lt;h1&gt;
                 </div>
-                <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>Community Involvement <p className='dot text-cyan'>...</p></p>
+                <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>Community Involvement <p className='dot text-cyan'>...</p></div>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;/h1&gt;
                 </div>

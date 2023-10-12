@@ -7,21 +7,21 @@ function Projects() {
             <div className='text-gray-600 pl-20 web'>
                 &lt;h1&gt;
             </div>
-            <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Projects <p className='dot text-cyan'>...</p></p>
+            <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>My Projects <p className='dot text-cyan'>...</p></div>
             <div className='text-gray-600 pl-20 web'>
                 &lt;/h1&gt;
             </div>
             <div className='text-gray-600 pl-20 web'>
                 &lt;div&gt;
             </div>
-            <div className='flex flex-wrap pl-32'>
-                <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+            <div className='grid grid-cols-card gap-2 pl-32'>
+                <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                     <div className='text-gray-600 web'>
                         &lt;project&gt;
                     </div>
                     <div className='flex flex-col p-5'>
                         <div className='flex justify-between py-2'>
-                            <p className='text-cyan text-lg at'>E-Waste Facility Locator - SIH 2023</p>
+                            <p className='text-cyan text-lg pr-1 at'>E-Waste Facility Locator - SIH 2023</p>
                             <div className='flex gap-5'>
                                 <Link to='https://github.com/Souvik-Bhattacharya/SIH2023_E-Waste_Facility_Locator' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                 <Link to='https://e-waste-facility-locator.onrender.com/' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
@@ -45,13 +45,13 @@ function Projects() {
                         &lt;/project&gt;
                     </div>
                 </div>
-                <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                     <div className='text-gray-600 web'>
                         &lt;project&gt;
                     </div>
                     <div className='flex flex-col p-5'>
                         <div className='flex justify-between py-2'>
-                            <p className='text-cyan text-lg at'>College Seeker - Cloud Counselage</p>
+                            <p className='text-cyan text-lg pr-1 at'>College Seeker - Cloud Counselage</p>
                             <div className='flex gap-5'>
                                 <Link to='https://github.com/Souvik-Bhattacharya/CollegeSeeker_CloudCounselage' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                 <Link to='https://college-seeker-cloud-counselage.onrender.com/' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
@@ -74,13 +74,13 @@ function Projects() {
                         &lt;/project&gt;
                     </div>
                 </div>
-                <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                     <div className='text-gray-600 web'>
                         &lt;project&gt;
                     </div>
                     <div className='flex flex-col p-5'>
                         <div className='flex justify-between py-2'>
-                            <p className='text-cyan text-lg at'>To Do List - Web Application</p>
+                            <p className='text-cyan text-lg pr-1 at'>To Do List - Web Application</p>
                             <div className='flex gap-5'>
                                 <Link to='https://github.com/Souvik-Bhattacharya/ToDoList' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                 <Link to='https://souvik-bhattacharya.github.io/ToDoList/' target='blank'><i className="fa-solid fa-link fa-xl text-cyan"></i></Link>
@@ -99,13 +99,13 @@ function Projects() {
                         &lt;/project&gt;
                     </div>
                 </div>
-                <div className='flex flex-col justify-between hover:mt-1 m-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec w-2/5 p-3'>
+                <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
                     <div className='text-gray-600 web'>
                         &lt;project&gt;
                     </div>
                     <div className='flex flex-col p-5'>
                         <div className='flex justify-between py-2'>
-                            <p className='text-cyan text-lg at'>Snake Game</p>
+                            <p className='text-cyan text-lg pr-1 at'>Snake Game</p>
                             <div className='flex gap-5'>
                                 <Link to='https://github.com/Souvik-Bhattacharya/Snake_Game' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
                                 <Link to='https://www.youtube.com/watch?v=81RoVotTcdw' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>

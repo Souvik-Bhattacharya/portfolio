@@ -8,7 +8,7 @@ function About() {
                 <div className='text-gray-600 pl-20 web'>
                     &lt;h1&gt;
                 </div>
-                <p className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>About Me <p className='dot text-cyan'>...</p></p>
+                <div className='flex whitespace-nowrap text-4xl pl-32 py-3 text-cyan h'>About Me <p className='dot text-cyan'>...</p></div>
                 <div className='text-gray-600 pl-20 web'>
                     &lt;/h1&gt;
                 </div>

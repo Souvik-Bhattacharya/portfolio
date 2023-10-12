@@ -10,14 +10,9 @@ export default {
         'cyan': '#08fdd8',
         'sec': '#222222',
       },
-      keyframes: {
-        'slideshow': {
-          '0%': { 'left': '0' },
-          '100%': { 'left': '-200%' },
-        },
-      },
-      animation: {
-        'slideShow': 'slideshow 10s linear infinite',
+      gridTemplateColumns: {
+        'card': 'repeat(auto-fill,minmax(400px,1fr))',
+        'edu': 'repeat(auto-fill,minmax(600px,1fr))',
       },
     },
   },
