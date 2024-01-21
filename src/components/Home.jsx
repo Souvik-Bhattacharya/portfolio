@@ -32,22 +32,28 @@ function Home() {
             &lt;div&gt;
           </div>
           <div className='pl-32 small:pl-14'>
-            <div className='flex flex-wrap gap-5'>
+            <div className='flex flex-wrap gap-5 items-center'>
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+              <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+              <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              <i className="devicon-nextjs-original-wordmark at text-7xl"></i>
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
               <i className="devicon-express-original at text-5xl"></i>
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+              <i className="devicon-socketio-original at text-5xl"></i>
+              <i className="devicon-handlebars-plain-wordmark at text-7xl"></i>
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" />
+              <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
             </div>
           </div>
           <div className='text-gray-600 pl-20 small:pl-10 web'>

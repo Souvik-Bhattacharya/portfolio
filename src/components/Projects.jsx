@@ -21,6 +21,38 @@ function Projects() {
                     </div>
                     <div className='flex flex-col p-3'>
                         <div className='flex justify-between py-2'>
+                            <p className='text-cyan text-lg small:text-base pr-1 at'>FoodZilla - Food Ordering Web Application</p>
+                            <div className='flex gap-3'>
+                                <Link to='https://github.com/Souvik-Bhattacharya/FoodZilla' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
+                                <Link to='https://foodzilla-ecru.vercel.app/' target='blank'><i className="fa-solid fa-link fa-xl at text-cyan"></i></Link>
+                            </div>
+                        </div>
+                        <p className='py-2 small:text-sm'>
+                            A responsive web application to order foods of multiple categories with the functionalities of search, sort by price, infinite scroll, cart, user authentication with JWT, user and admin dashboard and payment gateway integration using stripe with DB using mongoDB.
+                        </p>
+                        <div className='flex items-center gap-3 py-5'>
+                            <i className="text-cyan fa-brands fa-html5 fa-xl at"></i>
+                            <i className="text-cyan fa-brands fa-css3-alt fa-xl at"></i>
+                            <i className="text-cyan devicon-tailwindcss-plain text-xl at"></i>
+                            <i className="text-cyan fa-brands fa-js fa-xl at"></i>
+                            <i className="text-cyan fa-brands fa-react fa-xl at"></i>
+                            <i className="text-cyan devicon-nextjs-plain text-xl at"></i>
+                            <i className="text-cyan fa-brands fa-node-js fa-xl at"></i>
+                            <i className="text-cyan fa-brands fa-npm fa-xl at"></i>
+                            <i className="text-cyan devicon-mongodb-plain text-xl at"></i>
+                            <i className="text-cyan fa-brands fa-stripe fa-xl at"></i>
+                        </div>
+                    </div>
+                    <div className='text-gray-600 web'>
+                        &lt;/project&gt;
+                    </div>
+                </div>
+                <div className='flex flex-col justify-between hover:-translate-y-2 hover:shadow-lg hover:shadow-black rounded-3xl bg-sec p-3'>
+                    <div className='text-gray-600 web'>
+                        &lt;project&gt;
+                    </div>
+                    <div className='flex flex-col p-3'>
+                        <div className='flex justify-between py-2'>
                             <p className='text-cyan text-lg small:text-base pr-1 at'>E-Waste Facility Locator - SIH 2023</p>
                             <div className='flex gap-3'>
                                 <Link to='https://github.com/Souvik-Bhattacharya/SIH2023_E-Waste_Facility_Locator' target='blank'><i className="fa-brands fa-github fa-xl at text-cyan"></i></Link>
@@ -66,6 +98,7 @@ function Projects() {
                             <i className="text-cyan fa-brands fa-js fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-node-js fa-xl at"></i>
                             <i className="text-cyan devicon-express-original text-xl at"></i>
+                            <i className="text-cyan devicon-handlebars-plain text-xl at"></i>
                             <i className="text-cyan fa-brands fa-npm fa-xl at"></i>
                             <i className="text-cyan devicon-mysql-plain text-xl at"></i>
                         </div>

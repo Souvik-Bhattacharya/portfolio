@@ -17,9 +17,9 @@ function Navbar() {
         <p className='text-gray-600 web'>&lt;title/&gt;</p>
       </div>
       <div className='flex whitespace-nowrap pl-20 small:pl-10'>
-        <p className='text-gray-600 web'>&lt;meta content="</p>
-        <Link to="https://drive.google.com/file/d/1Ifi9HE4ag69VemBtBPDX-6Ve8GBCkL7z/view" target='blank' className='text-cyan'>Resume</Link>
-        <p className='text-gray-600 web'>"/&gt;</p>
+        <p className='text-gray-600 web'>&lt;meta content=</p>
+        <Link to="/resume" className={`${(location.pathname == "/resume") ? "text-cyan" : "text-gray-600"}`}>"<span className='hover:text-cyan'>Resume</span>"</Link>
+        <p className='text-gray-600 web'>/&gt;</p>
       </div>
       <div className='text-gray-600 pl-10 small:pl-5 web'>
         &lt;/head&gt;

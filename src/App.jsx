@@ -9,6 +9,8 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -23,9 +25,11 @@ function App() {
           <Route exact path = "/exp" element={<Experience/>}></Route>
           <Route exact path = "/projects" element={<Projects/>}></Route>
           <Route exact path = "/contact" element={<Contact/>}></Route>
+          <Route exact path = "/resume" element={<Resume/>}></Route>
         </Routes>
         <Footer/>
       </Router>
+      <Analytics />
     </div>
   )
 }
