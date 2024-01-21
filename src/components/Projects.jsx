@@ -30,7 +30,7 @@ function Projects() {
                         <p className='py-2 small:text-sm'>
                             A responsive web application to order foods of multiple categories with the functionalities of search, sort by price, infinite scroll, cart, user authentication with JWT, user and admin dashboard and payment gateway integration using stripe with DB using mongoDB.
                         </p>
-                        <div className='flex items-center gap-3 py-5'>
+                        <div className='flex flex-wrap items-center gap-3 py-5'>
                             <i className="text-cyan fa-brands fa-html5 fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-css3-alt fa-xl at"></i>
                             <i className="text-cyan devicon-tailwindcss-plain text-xl at"></i>
@@ -62,7 +62,7 @@ function Projects() {
                         <p className='py-2 small:text-sm'>
                             A web application to find the nearest e-waste facility locators near you. It also gives redeemable credit points based on the amount of valuable elements predicted to be present and can be extracted after proper recycling.
                         </p>
-                        <div className='flex items-center gap-3 py-5'>
+                        <div className='flex flex-wrap items-center gap-3 py-5'>
                             <i className="text-cyan fa-brands fa-html5 fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-css3-alt fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-js fa-xl at"></i>
@@ -92,7 +92,7 @@ function Projects() {
                         <p className='py-2 small:text-sm'>
                             A web application for helping students find Indian colleges with different college names, courses offered, and states. They can know about course fees and the different ratings of the colleges as well.
                         </p>
-                        <div className='flex items-center gap-3 py-5'>
+                        <div className='flex flex-wrap items-center gap-3 py-5'>
                             <i className="text-cyan fa-brands fa-html5 fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-css3-alt fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-js fa-xl at"></i>
@@ -122,7 +122,7 @@ function Projects() {
                         <p className='py-2 small:text-sm'>
                             A web application for managing your to-dos and provide the interface to add, update, bookmark. remove tasks from your list.
                         </p>
-                        <div className='flex items-center gap-3 py-5'>
+                        <div className='flex flex-wrap items-center gap-3 py-5'>
                             <i className="text-cyan fa-brands fa-html5 fa-xl"></i>
                             <i className="text-cyan fa-brands fa-css3-alt fa-xl at"></i>
                             <i className="text-cyan fa-brands fa-js fa-xl at"></i>
