@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 function Navbar() {
@@ -13,12 +12,12 @@ function Navbar() {
       </div>
       <div className='flex whitespace-nowrap pl-20 small:pl-10'>
         <p className='text-gray-600 web'>&lt;title&gt;</p>
-        <p className='text-cyan at'>It's Souvik - Portfolio</p>
+        <p className='text-cyan at'>It&apos;s Souvik - Portfolio</p>
         <p className='text-gray-600 web'>&lt;title/&gt;</p>
       </div>
       <div className='flex whitespace-nowrap pl-20 small:pl-10'>
         <p className='text-gray-600 web'>&lt;meta content=</p>
-        <Link to="/resume" className={`${(location.pathname == "/resume") ? "text-cyan" : "text-gray-600"}`}>"<span className='hover:text-cyan'>Resume</span>"</Link>
+        <Link to="/resume" className={`${(location.pathname == "/resume") ? "text-cyan" : "text-gray-600"}`}>&quot;<span className='hover:text-cyan'>Resume</span>&quot;</Link>
         <p className='text-gray-600 web'>/&gt;</p>
       </div>
       <div className='text-gray-600 pl-10 small:pl-5 web'>

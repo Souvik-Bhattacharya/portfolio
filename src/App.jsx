@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -12,7 +11,6 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 
 function App() {
-
   return (
     <div className=' h-screen flex flex-col justify-between'>
       <Router>

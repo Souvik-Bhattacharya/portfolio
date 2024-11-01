@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Footer() {
     return (
@@ -8,7 +7,7 @@ function Footer() {
             </div>
             <div className='flex mini:flex-col text-lg pl-32 small:pl-14 py-2'>
                 <p>
-                    &copy;2023&nbsp;<span className='text-cyan'>Souvik Bhattacharya</span>,
+                    &copy;2024&nbsp;<span className='text-cyan'>Souvik Bhattacharya</span>,
                 </p>
                 <div className='flex whitespace-nowrap'>
                     Thanks for visiting <p className='dot'>...</p>

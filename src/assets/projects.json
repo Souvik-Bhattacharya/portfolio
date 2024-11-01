@@ -1,0 +1,98 @@
+[
+    {
+        "id": 6,
+        "title": "Be-The-Donor - A Web Application To Find Blood Donors",
+        "image": "/be-the-donor.webp",
+        "desc": "It is a collaborative, full-stack project to bridge the gap between people who need blood donations and willing blood donors in India. Any user can generate a request for blood donation and manage the status of their requests. Any active user can accept a request and withdraw afterwards. Request creators can see the acceptors’ details and contact them.",
+        "github": "https://github.com/Souvik-Bhattacharya/hack4bengal",
+        "deploy": "https://be-the-donor.vercel.app/",
+        "techStack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "devicon-tailwindcss-plain",
+            "fa-brands fa-js",
+            "devicon-nextjs-plain",
+            "fa-brands fa-node-js",
+            "fa-brands fa-npm"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FoodZilla - Food Ordering Web Application",
+        "image": "/foodzilla.webp",
+        "desc": "A responsive web application to order foods of multiple categories with the functionalities of search, sort by price, infinite scroll, cart, user authentication with JWT, user and admin dashboard and payment gateway integration using stripe with DB using mongoDB.",
+        "github": "https://github.com/Souvik-Bhattacharya/FoodZilla",
+        "deploy": "https://foodzilla-ecru.vercel.app/",
+        "techStack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "devicon-tailwindcss-plain",
+            "fa-brands fa-js",
+            "devicon-nextjs-plain",
+            "fa-brands fa-node-js",
+            "fa-brands fa-npm",
+            "devicon-mongodb-plain",
+            "fa-brands fa-stripe"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "E-Waste Facility Locator - SIH 2023",
+        "image": "/sih.webp",
+        "desc": "A web application to find the nearest e-waste facility locators near you. It also gives redeemable credit points based on the amount of valuable elements predicted to be present and can be extracted after proper recycling.",
+        "github": "https://github.com/Souvik-Bhattacharya/SIH2023_E-Waste_Facility_Locator",
+        "deploy": "https://e-waste-facility-locator.onrender.com/",
+        "techStack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-js",
+            "fa-brands fa-react",
+            "fa-brands fa-node-js",
+            "devicon-express-original",
+            "fa-brands fa-npm",
+            "devicon-mongodb-plain"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "College Seeker - Cloud Counselage",
+        "image": "/collegeseeker.webp",
+        "desc": "A web application for helping students find Indian colleges with different college names, courses offered, and states. They can know about course fees and the different ratings of the colleges as well.",
+        "github": "https://github.com/Souvik-Bhattacharya/CollegeSeeker_CloudCounselage",
+        "deploy": "https://college-seeker-cloud-counselage.onrender.com/",
+        "techStack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-js",
+            "fa-brands fa-node-js",
+            "devicon-express-original",
+            "devicon-handlebars-plain",
+            "fa-brands fa-npm",
+            "devicon-mysql-plain"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "To Do List - Web Application",
+        "image": "/todolist.webp",
+        "desc": "A web application for managing your to-dos and provide the interface to add, update, bookmark. remove tasks from your list.",
+        "github": "https://github.com/Souvik-Bhattacharya/ToDoList",
+        "deploy": "https://souvik-bhattacharya.github.io/ToDoList/",
+        "techStack": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3-alt",
+            "fa-brands fa-js"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Snake Game",
+        "image": "/snakegame.webp",
+        "desc": "A python GUI gaming application to entertain users with an endless gaming experience and with the classic feel of their childhood.",
+        "github": "https://github.com/Souvik-Bhattacharya/Snake_Game",
+        "deploy": "https://www.youtube.com/watch?v=81RoVotTcdw",
+        "techStack": [
+            "fa-brands fa-python"
+        ]
+    }
+]

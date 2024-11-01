@@ -1,5 +1,4 @@
-import React from 'react'
-import bg from '/bg.jpg';
+import bg from '/bg.webp';
 
 function Home() {
   return (
@@ -9,7 +8,7 @@ function Home() {
           <div className='text-gray-600 pl-20 small:pl-10 web'>
             &lt;h1&gt;
           </div>
-          <div className='flex whitespace-nowrap text-4xl mini:text-2xl pl-32 small:pl-14 py-1 h'>Hi! I'm<p className='dot'>...</p></div>
+          <div className='flex whitespace-nowrap text-4xl mini:text-2xl pl-32 small:pl-14 py-1 h'>Hi! I&apos;m<p className='dot'>...</p></div>
           <p className='text-cyan text-5xl mini:text-3xl pl-32 small:pl-14 py-1 at'>Souvik Bhattacharya</p>
           <div className='text-gray-600 pl-20 small:pl-10 web'>
             &lt;/h1&gt;
@@ -17,7 +16,7 @@ function Home() {
           <div className='text-gray-600 pl-20 small:pl-10 web'>
             &lt;p&gt;
           </div>
-          <p className='text-2xl mini:text-lg pl-32 small:pl-14'>I'm a <span className='text-cyan'>MERN Stack</span> Developer</p>
+          <p className='text-2xl mini:text-lg pl-32 small:pl-14'>I&apos;m a <span className='text-cyan'>MERN Stack</span> Developer</p>
           <div className='text-gray-600 pl-20 small:pl-10 web'>
             &lt;/p&gt;
           </div>
@@ -38,7 +37,7 @@ function Home() {
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-              <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+              <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
               <img height="50" width="50" className='at' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -62,11 +61,11 @@ function Home() {
         </div>
         <div className='flex flex-col h-auto justify-center ml-20 small:ml-10 items-start w-2/5 small:w-full pr-4'>
           <div className='text-gray-600 mb-5 web'>
-            &lt;img src="
+            &lt;img src=&quot;
           </div>
           <img src={bg} alt="" className='ml-12 small:ml-4 h-64 shadow-md hover:shadow-lg hover:shadow-cyan shadow-cyan rounded-3xl hover:rotate-3 hover:grayscale' />
           <div className='text-gray-600 mt-5 web'>
-            " alt="souvik"/&gt;
+            &quot; alt=&quot;souvik&quot;/&gt;
           </div>
         </div>
       </div>
@@ -74,4 +73,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
