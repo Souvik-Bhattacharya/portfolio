@@ -85,7 +85,7 @@
         "thumbnail": "/COLLEGE_SEEKER.webp",
         "description": "It is a web application for helping students find Indian colleges with different college names, courses offered, and states. Users can gain information like course fees and ratings of the colleges as well.",
         "github": "https://github.com/Souvik-Bhattacharya/CollegeSeeker_CloudCounselage",
-        "web": "https://college-seeker-cloud-counselage.onrender.com/",
+        "web": "https://college-seeker.vercel.app/",
         "techStack": [
             {
                 "name": "HTML",
