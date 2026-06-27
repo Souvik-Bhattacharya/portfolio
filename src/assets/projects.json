@@ -2,7 +2,7 @@
     {
         "id": 6,
         "title": "Be-The-Donor",
-        "thumbnail": "/BE-THE-DONOR.webp",
+        "thumbnail": "/BETHEDONOR.webp",
         "description": "It is a full-stack application which can be used to bridge the gap between the people who need blood donations and the willing blood donors in India. Any user can generate a request for blood donations and manage the status of their requests. Any active user who is willing to donate blood can accept a request and withdraw afterwards also. Any requestor can see the details of the acceptors and contact them. It is a collaborative project.",
         "github": "https://github.com/Souvik-Bhattacharya/hack4bengal",
         "web": "https://be-the-donor.vercel.app/",
@@ -44,7 +44,7 @@
     {
         "id": 5,
         "title": "FoodZilla",
-        "thumbnail": "/FOODZILLA.webp",
+        "thumbnail": "/FOOD-ZILLA.webp",
         "description": "It is a fully responsive web application which can be used to order food. Anyone can register himself/herself by authenticating their valid email address. Authenticated users can update their profile through the user dashboard. Users can search different food items by the name of the food item or using different category filters. Users can also sort food items by their price. After adding desired food items in the cart, users can checkout and place their order as well.",
         "github": "https://github.com/Souvik-Bhattacharya/FoodZilla",
         "web": "https://foodzilla-ecru.vercel.app/",
