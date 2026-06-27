@@ -156,7 +156,7 @@
         "id": 1,
         "title": "Snake Game",
         "thumbnail": "/SNAKE_GAME.webp",
-        "description": "It is a classic snake game. It offers an endless gaming experience. It can track the high score also.",
+        "description": "It is a classic snake game. It offers an endless gaming experience. It can track the high score.",
         "github": "https://github.com/Souvik-Bhattacharya/Snake_Game",
         "web": "https://www.youtube.com/watch?v=81RoVotTcdw",
         "techStack": [

@@ -7,12 +7,13 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
-.web-icon path, .mail-icon path {
+.web-icon path,
+.mail-icon path {
   fill: #08fdd8 !important;
 }
 
 .web {
-  font-family: cursive;
+  font-family: "Google Sans Code", monospace;
 }
 
 ::-webkit-scrollbar {
