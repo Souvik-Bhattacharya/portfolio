@@ -17,7 +17,7 @@ const Project = ({ title, thumbnail, github, web, description, techStack }) => {
       )}
       <div className="flex flex-col justify-between h-full">
         <div className="text-gray-600 web px-3 pt-3">&lt;div&gt;</div>
-        <div className="flex flex-col px-6">
+        <div className="flex flex-col justify-between h-full px-6">
           <div className="flex justify-between items-center py-2">
             <p className="text-cyan text-lg small:text-base pr-1 at">{title}</p>
             <div className="flex gap-3">
