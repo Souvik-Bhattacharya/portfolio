@@ -1,0 +1,50 @@
+[
+    {
+        "id": 3,
+        "logo": "/RCCIIT.webp",
+        "degree": "Bachelor of Technology - CSE",
+        "institute": "RCC Institute of Information Technology",
+        "affiliation": {
+            "name": "University",
+            "value": "MAKAUT"
+        },
+        "grade": {
+            "name": "CGPA",
+            "value": 9.13
+        },
+        "passout": 2025,
+        "web": "https://www.rcciit.org/"
+    },
+    {
+        "id": 2,
+        "logo": "/BAKP.webp",
+        "degree": "Higher Secondery (12th) - PCMB",
+        "institute": "Bhatpara Amar Krishna Pathsala (H.S)",
+        "affiliation": {
+            "name": "Board",
+            "value": "WBCHSE"
+        },
+        "grade": {
+            "name": "Percentage",
+            "value": 91.5
+        },
+        "passout": 2021,
+        "web": "https://bakp2014.wixsite.com/main"
+    },
+    {
+        "id": 1,
+        "logo": "/BAKP.webp",
+        "degree": "Secondery (10th)",
+        "institute": "Bhatpara Amar Krishna Pathsala (H.S)",
+        "affiliation": {
+            "name": "Board",
+            "value": "WBBSE"
+        },
+        "grade": {
+            "name": "Percentage",
+            "value": 90
+        },
+        "passout": 2019,
+        "web": "https://bakp2014.wixsite.com/main"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 4,
+        "designation": "Systems Engineer",
+        "company": "Tata Consultancy Services Ltd.",
+        "duration": "Feb 2026 - Present",
+        "techStack": [
+            {
+                "name": "Spring Framework",
+                "icon": "devicon-spring-original"
+            },
+            {
+                "name": "AngularJS",
+                "icon": "devicon-angularjs-plain"
+            },
+            {
+                "name": "PL/SQL",
+                "icon": "devicon-sqldeveloper-plain"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "designation": "Software Engineer Intern",
+        "company": "DreamzTech Solutions",
+        "duration": "Apr 2025 - Aug 2025",
+        "techStack": [
+            {
+                "name": "PHP",
+                "icon": "devicon-php-plain"
+            },
+            {
+                "name": "Laravel",
+                "icon": "devicon-laravel-original"
+            },
+            {
+                "name": "MySQL",
+                "icon": "devicon-mysql-plain"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "designation": "Full Stack Developer Intern",
+        "company": "Infosys Springboard",
+        "duration": "Feb 2025 - Apr 2025",
+        "techStack": [
+            {
+                "name": "React.js",
+                "icon": "devicon-react-original"
+            },
+            {
+                "name": "Spring Boot",
+                "icon": "/SPRING_BOOT.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "devicon-mysql-plain"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "designation": "Frontend Developer Intern",
+        "company": "Azure Software Pvt. Ltd.",
+        "duration": "Aug 2024 - Nov 2024",
+        "techStack": [
+            {
+                "name": "Angular",
+                "icon": "devicon-angular-plain"
+            }
+        ]
+    }
+]
